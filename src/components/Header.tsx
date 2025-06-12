@@ -49,9 +49,9 @@ const Header = () => {
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="hidden md:flex">
+            {/* <Button variant="ghost" size="icon" className="hidden md:flex">
               <ShoppingBag className="h-5 w-5" />
-            </Button>
+            </Button> */}
             <Button className="hidden md:flex bg-gradient-piumino hover:opacity-90">
               Shop Now
             </Button>
