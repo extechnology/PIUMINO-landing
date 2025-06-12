@@ -31,21 +31,21 @@ const About = () => {
 
   const team = [
     {
-      name: "Sarah Johnson",
+      name: "Andria Clerk",
       role: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b587?w=300",
+      image: "https://images.unsplash.com/photo-1735424080701-d00f5fda5aa6?q=80&w=2081&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description: "With 15 years in footwear design, Sarah founded Piumino to bring comfort to everyone."
     },
     {
       name: "Michael Chen",
       role: "Head of Design",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300",
+      image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFufGVufDB8MnwwfHx8Mg%3D%3D",
       description: "Michael's innovative designs have revolutionized comfort in casual footwear."
     },
     {
       name: "Emily Rodriguez",
       role: "Quality Director",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300",
+      image: "https://images.unsplash.com/photo-1568633782872-67d29d4615d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGdpcmx8ZW58MHwyfDB8fHwy",
       description: "Emily ensures every pair meets our strict quality standards before reaching customers."
     }
   ];
@@ -92,7 +92,7 @@ const About = () => {
                 Our <span className="text-gradient">Story</span>
               </h2>
               <p className="text-lg text-muted-foreground">
-                Founded in 2014, Piumino began as a small family business with a simple mission: 
+                Founded in XXXX, Piumino began as a small family business with a simple mission: 
                 to create the most comfortable chappals using the finest PU materials available.
               </p>
               <p className="text-lg text-muted-foreground">
@@ -112,7 +112,7 @@ const About = () => {
                 className="rounded-2xl shadow-lg"
               />
               <div className="absolute -bottom-6 -left-6 bg-gradient-piumino text-white p-6 rounded-xl shadow-lg">
-                <div className="text-2xl font-bold">2014</div>
+                <div className="text-2xl font-bold">XXXX</div>
                 <div className="text-sm">Founded</div>
               </div>
             </div>

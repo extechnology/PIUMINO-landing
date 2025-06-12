@@ -11,17 +11,22 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <img 
-              src="/lovable-uploads/846e4fcd-c1fb-4201-af5f-ddd932d4b6d9.png" 
+              src="/logo-2.png" 
               alt="Piumino Logo" 
-              className="h-8 w-auto brightness-0 invert"
+              className="h-8 w-auto "
             />
             <p className="text-sm text-muted-foreground">
-              Discover the genuine PU chappals collection. Comfort meets style in every step.
+              Discover the chappals collection. Comfort meets style in every step.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" />
+              <i className="fa-brands fa-whatsapp h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
+              <i className="fa-brands fa-instagram h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
+              <i className="fa-brands fa-facebook h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
+              <i className="fa-brands fa-pinterest h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
+              <i className="fa-brands fa-x-twitter h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
+              {/* <Facebook className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" />
               <Instagram className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" />
-              <Twitter className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" />
+              <Twitter className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" /> */}
             </div>
           </div>
 

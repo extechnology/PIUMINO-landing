@@ -12,27 +12,27 @@ const Index = () => {
     {
       image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
       title: "Classic Brown Leather Chappals",
-      price: "$49.99",
-      originalPrice: "$69.99",
+      price: "₹1490.99",
+      originalPrice: "₹1690.99",
       isNew: true
     },
     {
       image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400",
       title: "Premium Black Chappals",
-      price: "$39.99",
-      originalPrice: "$59.99"
+      price: "₹1390.99",
+      originalPrice: "₹1590.99"
     },
     {
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
       title: "Comfortable Tan Sandals",
-      price: "$44.99",
+      price: "₹1440.99",
       isNew: true
     },
     {
       image: "https://images.unsplash.com/photo-1542840410-3092f99611a3?w=400",
       title: "Casual Slip-On Chappals",
-      price: "$34.99",
-      originalPrice: "$49.99"
+      price: "₹1340.99",
+      originalPrice: "₹1490.99"
     }
   ];
 
@@ -40,12 +40,12 @@ const Index = () => {
     {
       icon: Truck,
       title: "Free Shipping",
-      description: "Free shipping on orders over $50"
+      description: "Free shipping on orders over ₹1500"
     },
     {
       icon: Shield,
       title: "Quality Guarantee",
-      description: "100% genuine PU materials"
+      description: "100% materials"
     },
     {
       icon: Headphones,
@@ -75,7 +75,7 @@ const Index = () => {
                   <span className="text-gradient block">Comfort</span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-md">
-                  Discover our premium collection of genuine PU chappals. Where comfort meets style in every step.
+                  Discover our premium collection of chappals. Where comfort meets style in every step.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">

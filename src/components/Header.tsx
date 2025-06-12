@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/846e4fcd-c1fb-4201-af5f-ddd932d4b6d9.png" 
+              src="/logo-2.png" 
               alt="Piumino Logo" 
               className="h-8 w-auto"
             />
