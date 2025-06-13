@@ -45,6 +45,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/shop" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Shop Now
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Contact
                 </Link>
@@ -113,10 +118,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 Piumino. All rights reserved.
-            </p>
-            <p className="text-sm text-muted-foreground mt-2 md:mt-0">
-              Made with ❤️ for comfort and style
+              © 2025 Piumino. All rights reserved.
             </p>
           </div>
         </div>
