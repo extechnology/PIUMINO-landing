@@ -13,17 +13,17 @@ const Footer = () => {
             <img 
               src="/logo-2.png" 
               alt="Piumino Logo" 
-              className="h-8 w-auto "
+              className="h-12 w-auto "
             />
             <p className="text-sm text-muted-foreground">
               Discover the chappals collection. Comfort meets style in every step.
             </p>
             <div className="flex space-x-4">
-              <i className="fa-brands fa-whatsapp h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
-              <i className="fa-brands fa-instagram h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
-              <i className="fa-brands fa-facebook h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
-              <i className="fa-brands fa-pinterest h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
-              <i className="fa-brands fa-x-twitter h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i>
+              <a ><i className="fa-brands fa-whatsapp h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i></a>
+              <a ><i className="fa-brands fa-instagram h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i></a>
+              <a ><i className="fa-brands fa-facebook h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i></a>
+              <a ><i className="fa-brands fa-pinterest h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i></a>
+              <a ><i className="fa-brands fa-x-twitter h-5 w-5 hover:text-primary cursor-pointer transition-colors"></i></a>
               {/* <Facebook className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" />
               <Instagram className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" />
               <Twitter className="h-5 w-5 hover:text-primary cursor-pointer transition-colors" /> */}
@@ -41,12 +41,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  About Us
+                  Store 
                 </Link>
               </li>
               <li>
                 <Link to="/shop" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Shop Now
+                 About Us
                 </Link>
               </li>
               <li>
@@ -59,6 +59,16 @@ const Footer = () => {
                   Privacy Policy
                 </a>
               </li>
+              <li>
+                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Refund/Return Policy 
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -68,12 +78,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Men's Chappals
+                  Men's 
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Women's Chappals
+                  Women's 
                 </a>
               </li>
               <li>
@@ -96,19 +106,19 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  123 Fashion Street, Style City, SC 12345
+                  15/617, KASHAYAPADI, FEROKE, Kozhikode, Kerala, 673631
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  +1 (555) 123-4567
+                 +91 xxx xxx xxxx
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  info@piumino.com
+                  info@piumino.in
                 </span>
               </div>
             </div>

@@ -30,7 +30,7 @@ const Shop = () => {
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400",
       title: "Comfortable Tan Sandals",
       price: "$44.99",
       isNew: true,
@@ -61,7 +61,7 @@ const Shop = () => {
     },
     {
       id: 7,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400",
       title: "Premium Leather Sandals",
       price: "$54.99",
       isNew: true,

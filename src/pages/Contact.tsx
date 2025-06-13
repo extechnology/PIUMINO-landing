@@ -47,27 +47,27 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Our Store",
-      details: ["123 Fashion Street", "Style City, SC 12345", "United States"],
+      details: ['SADAF ELASTOMERS, PIumino 15/617','KASHAYAPADI, FEROKE',', Kozhikode, Kerala, 673631'],
       color: "text-blue-500"
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568", "Toll Free: 1-800-PIUMINO"],
+      details: ["+91 xxxx xxxx xxxx"],
       color: "text-green-500"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@piumino.com", "support@piumino.com", "sales@piumino.com"],
+      details: ["info@piumino.com", "sales@piumino.com"],
       color: "text-primary"
     },
-    {
-      icon: Clock,
-      title: "Business Hours",
-      details: ["Mon - Fri: 9:00 AM - 8:00 PM", "Sat: 10:00 AM - 6:00 PM", "Sun: 12:00 PM - 5:00 PM"],
-      color: "text-orange-500"
-    }
+    // {
+    //   icon: Clock,
+    //   title: "Business Hours",
+    //   details: ["Mon - Fri: 9:00 AM - 8:00 PM", "Sat: 10:00 AM - 6:00 PM", "Sun: 12:00 PM - 5:00 PM"],
+    //   color: "text-orange-500"
+    // }
   ];
 
   return (
@@ -82,8 +82,8 @@ const Contact = () => {
               Get in <span className="text-gradient">Touch</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Have questions about our products or need assistance? We're here to help! 
-              Reach out to us through any of the methods below.
+              Have questions about our products or need assistance? 
+              We're here to help! 
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@ const Contact = () => {
       {/* Contact Info Cards */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 ">
             {contactInfo.map((info, index) => (
               <Card key={index} className="text-center border-0 shadow-md hover:shadow-lg transition-all hover:-translate-y-2">
                 <CardContent className="pt-8 pb-6">
@@ -226,12 +226,10 @@ const Contact = () => {
                 <CardContent>
                   <div className="aspect-video bg-muted rounded-lg mb-6 flex items-center justify-center">
                     <div className="text-center text-muted-foreground">
-                      <MapPin className="h-12 w-12 mx-auto mb-2 opacity-50" />
-                      <p>Interactive Map</p>
-                      <p className="text-sm">123 Fashion Street, Style City</p>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.2934145235663!2d75.8423126745219!3d11.160836651986601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba651ef8ba1d59b%3A0x4da3ab54d9c1e664!2spiumino%20footware!5e1!3m2!1sen!2sin!4v1749815200615!5m2!1sen!2sin" width="600" height="450" style={{border:0}}  loading="lazy"></iframe>
                     </div>
                   </div>
-                  <div className="space-y-4">
+                  {/* <div className="space-y-4">
                     <div>
                       <h4 className="font-semibold mb-2">Store Location</h4>
                       <p className="text-muted-foreground">
@@ -239,20 +237,11 @@ const Contact = () => {
                         Easy parking available and accessible by public transport.
                       </p>
                     </div>
-                    <div>
-                      <h4 className="font-semibold mb-2">What to Expect</h4>
-                      <ul className="text-muted-foreground space-y-1 text-sm">
-                        <li>• Full range of Piumino collections</li>
-                        <li>• Personal fitting assistance</li>
-                        <li>• Exclusive in-store offers</li>
-                        <li>• Free size exchanges</li>
-                      </ul>
-                    </div>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-lg">
+              {/* <Card className="border-0 shadow-lg">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold mb-4">Quick Questions?</h3>
                   <div className="space-y-3">
@@ -270,14 +259,14 @@ const Contact = () => {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
@@ -322,7 +311,7 @@ const Contact = () => {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

@@ -1,35 +1,36 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
-import { ArrowRight, Star, Truck, Shield, Headphones, RefreshCw } from 'lucide-react';
+import { ArrowRight, Star, Gem, BadgeCheck, Feather,ShieldCheck  } from 'lucide-react';
 
 const Index = () => {
   const featuredProducts = [
     {
-      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
-      title: "Classic Brown Leather Chappals",
+      image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=400",
+      title: "Classic Brown Leather Shoes",
       price: "₹1490.99",
       originalPrice: "₹1690.99",
       isNew: true
     },
     {
-      image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400",
-      title: "Premium Black Chappals",
+      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
+      title: "Premium Black Shoes",
       price: "₹1390.99",
       originalPrice: "₹1590.99"
     },
     {
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      image: "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=400",
       title: "Comfortable Tan Sandals",
       price: "₹1440.99",
       isNew: true
     },
     {
-      image: "https://images.unsplash.com/photo-1542840410-3092f99611a3?w=400",
+      image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400",
       title: "Casual Slip-On Chappals",
       price: "₹1340.99",
       originalPrice: "₹1490.99"
@@ -38,24 +39,25 @@ const Index = () => {
 
   const features = [
     {
-      icon: Truck,
-      title: "Free Shipping",
-      description: "Free shipping on orders over ₹1500"
+      icon: Gem,
+      title: "Premium Materials ",
+      // description: "Free shipping on orders over ₹1500",
+      image:'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400'
     },
     {
-      icon: Shield,
-      title: "Quality Guarantee",
-      description: "100% materials"
+      icon: BadgeCheck,
+      title: "Expert Craftsmanship",
+      // description: "100% materials"
     },
     {
-      icon: Headphones,
-      title: "24/7 Support",
-      description: "Customer support whenever you need"
+      icon: Feather,
+      title: "Comfort Technology",
+      // description: "Customer support whenever you need"
     },
     {
-      icon: RefreshCw,
-      title: "Easy Returns",
-      description: "30-day hassle-free returns"
+      icon: ShieldCheck ,
+      title: "Quality Hardware & Finishes",
+      // description: "30-day hassle-free returns"
     }
   ];
 
@@ -70,22 +72,27 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-                  Step into
-                  <span className="text-gradient block">Comfort</span>
+                <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+                  Confidence Starts From
+                  <span className="text-gradient block">The Ground Up</span>
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-md">
-                  Discover our premium collection of chappals. Where comfort meets style in every step.
+                  Discover our premium collection of footwear,<br /> where comfort meets style in every step.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-gradient-piumino hover:opacity-90 text-lg px-8">
+                <Link to={"/shop"}><Button size="lg" className="bg-gradient-piumino hover:opacity-90 text-lg px-8">
                   Shop Collection
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8">
+                </Button></Link>
+                <Link to={"/about"}><Button variant="outline" size="lg" className="text-lg px-8">
                   Watch Story
-                </Button>
+                </Button></Link>
+              </div>
+              <div className="flex flex-col sm:flex-row">
+                <p className="text-xl text-black font-bold max-w-md">
+                  Shop Now!
+                </p>
               </div>
               <div className="flex items-center space-x-6">
                 <div className="flex items-center space-x-1">
@@ -94,7 +101,7 @@ const Index = () => {
                   ))}
                 </div>
                 <span className="text-sm text-muted-foreground">
-                  Rated 4.9/5 by 2000+ customers
+                  Rated 4.9/5 by 78Lk + customers
                 </span>
               </div>
             </div>
@@ -119,7 +126,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Why Choose <span className="text-gradient">Piumino</span>
+              Find Perfect Pair, <br />
+              <span className="text-gradient">Enjoy a Perfect Moment.</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We're committed to providing the best quality chappals with exceptional service
@@ -127,13 +135,13 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
-              <Card key={index} className="text-center border-0 shadow-md hover:shadow-lg transition-shadow">
-                <CardContent className="pt-8 pb-6">
+              <Card key={index} className="text-center border-0 shadow-md hover:shadow-lg transition-shadow ">
+                <CardContent className="pt-8 pb-8">
                   <div className="w-16 h-16 bg-gradient-piumino rounded-full flex items-center justify-center mx-auto mb-4">
                     <feature.icon className="h-8 w-8 text-white" />
                   </div>
                   <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
+                  {/* <p className="text-muted-foreground">{feature.description}</p> */}
                 </CardContent>
               </Card>
             ))}
@@ -146,10 +154,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Featured <span className="text-gradient">Collection</span>
+              Our <span className="text-gradient">Collections</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Handpicked selection of our most popular and comfortable chappals
+              Crafted For Comfort, Built For Beauty
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -158,16 +166,16 @@ const Index = () => {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Button size="lg" variant="outline" className="text-lg px-8">
+            <Link to={"/shop"}><Button size="lg" variant="outline" className="text-lg px-8">
               View All Products
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            </Button></Link>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-piumino text-white">
+      {/* <section className="py-20 bg-gradient-piumino text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl lg:text-5xl font-bold">
@@ -187,7 +195,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

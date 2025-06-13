@@ -26,7 +26,7 @@ const Header = () => {
             <img 
               src="/logo-2.png" 
               alt="Piumino Logo" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 

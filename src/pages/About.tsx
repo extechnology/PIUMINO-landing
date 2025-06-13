@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: Award,
       title: "Craftsmanship",
-      description: "Traditional techniques meet modern innovation in our carefully crafted chappals."
+      description: "Traditional techniques meet modern innovation in our carefully crafted footwear. "
     },
     {
       icon: Target,
@@ -89,20 +89,13 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl lg:text-4xl font-bold">
-                Our <span className="text-gradient">Story</span>
+                About <span className="text-gradient">Us</span>
               </h2>
               <p className="text-lg text-muted-foreground">
-                Founded in XXXX, Piumino began as a small family business with a simple mission: 
-                to create the most comfortable chappals using the finest PU materials available.
+                Over the last 15 years, Piumino Footwear has been a cornerstone of style and comfort in Kerala. As a dedicated manufacturer and distributor, we proudly craft and deliver comprehensive footwear collections designed for the entire family. 
               </p>
               <p className="text-lg text-muted-foreground">
-                What started in a small workshop has grown into a beloved brand trusted by 
-                thousands of customers worldwide. We've never lost sight of our core values: 
-                quality, comfort, and customer satisfaction.
-              </p>
-              <p className="text-lg text-muted-foreground">
-                Today, Piumino continues to innovate while staying true to our heritage of 
-                craftsmanship and attention to detail that makes each pair special.
+                Discover our extensive range featuring trend-setting Gents footwear, elegant and comfortable Ladies styles, and durable, playful Kids shoes. Rooted in Kerala, Tamil Nadu & Karnataka,  we blend local understanding with quality craftsmanship, ensuring every pair meets our commitment to durability and affordability. Piumino is synonymous with reliable, fashionable footwear across generations – your trusted partner for every step. Step into style and comfort. 
               </p>
             </div>
             <div className="relative">
@@ -148,7 +141,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
@@ -175,7 +168,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Mission Section */}
       <section className="py-20 bg-gradient-piumino text-white">
@@ -185,9 +178,7 @@ const About = () => {
               Our Mission
             </h2>
             <p className="text-xl opacity-90 mb-8">
-              To provide the world's most comfortable and stylish PU chappals while 
-              maintaining our commitment to quality, sustainability, and customer satisfaction. 
-              Every step you take should be a step towards comfort.
+              To provide the world's most comfortable and stylish PU Footwear while maintaining our commitment to quality, sustainability, and customer satisfaction. Every step you take should be a step towards comfort.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
               <div>
