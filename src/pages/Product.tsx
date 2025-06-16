@@ -42,7 +42,7 @@ const Product = () => {
     images: [
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600",
       "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=600",
       "https://images.unsplash.com/photo-1542840410-3092f99611a3?w=600"
     ],
     sizes: ['6', '7', '8', '9', '10', '11', '12'],

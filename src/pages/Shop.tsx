@@ -13,75 +13,187 @@ const Shop = () => {
   const products = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
-      title: "Classic Brown Leather Chappals",
-      price: "$49.99",
-      originalPrice: "$69.99",
+      image: "/Gents (2).jpg",
+      title: "Gents Chappals",
+      price: "₹490.99",
+      originalPrice: "₹690.99",
       isNew: true,
-      category: "leather"
+      category: "gents"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400",
-      title: "Premium Black Chappals",
-      price: "$39.99",
-      originalPrice: "$59.99",
-      category: "casual"
+      image: "/gents (3).jpg",
+      title: "Gents chappals",
+      price: "₹400.99",
+      originalPrice: "₹590.99",
+      category: "gents"
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400",
-      title: "Comfortable Tan Sandals",
-      price: "$44.99",
+      image: "/gents (4).jpg",
+      title: "Gents chappals",
+      price: "₹390.99",
       isNew: true,
-      category: "comfort"
+      category: "gents"
     },
     {
       id: 4,
-      image: "https://images.unsplash.com/photo-1542840410-3092f99611a3?w=400",
-      title: "Casual Slip-On Chappals",
-      price: "$34.99",
-      originalPrice: "$49.99",
-      category: "casual"
+      image: "/gents (5).jpg",
+      title: "Gents chappals",
+      price: "₹490.99",
+      originalPrice: "₹510.99",
+      category: "gents"
     },
     {
       id: 5,
-      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
-      title: "Luxury Brown Sandals",
-      price: "$59.99",
-      category: "luxury"
+      image: "/gents (6).jpg",
+      title: "Gents chappals",
+      price: "₹400.99",
+      category: "gents"
     },
     {
       id: 6,
-      image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400",
-      title: "Everyday Comfort Chappals",
-      price: "$29.99",
-      originalPrice: "$39.99",
-      category: "comfort"
+      image: "/gents (7).jpg",
+      title: "Gents chappals",
+      price: "₹490.99",
+      originalPrice: "₹690.99",
+      category: "gents"
     },
     {
       id: 7,
-      image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400",
-      title: "Premium Leather Sandals",
-      price: "$54.99",
+      image: "/Gents.jpg",
+      title: "Gents chappals",
+      price: "₹400.99",
       isNew: true,
-      category: "leather"
+      category: "gents"
     },
     {
       id: 8,
-      image: "https://images.unsplash.com/photo-1542840410-3092f99611a3?w=400",
-      title: "Stylish Urban Chappals",
-      price: "$42.99",
-      category: "casual"
-    }
+      image: "/kids.jpg",
+      title: "Kids chappals",
+      price: "₹280.99",
+      category: "kids"
+    },
+    {
+      id: 9,
+      image: "/kids (2).jpg",
+      title: "Kids chappals",
+      price: "₹280.99",
+      category: "kids"
+    },
+    {
+      id: 10,
+      image: "/kids (3).jpg",
+      title: "Kids chappals",
+      price: "₹280.99",
+      category: "kids"
+    },
+    {
+      id: 11,
+      image: "/ladies (2).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 12,
+      image: "/ladies (3).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 13,
+      image: "/ladies (4).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 14,
+      image: "/ladies (5).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 15,
+      image: "/ladies (6).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 16,
+      image: "/ladies (7).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 17,
+      image: "/ladies (8).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 18,
+      image: "/ladies (9).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 19,
+      image: "/ladies (10).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 20,
+      image: "/ladies (11).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 21,
+      image: "/ladies (12).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 22,
+      image: "/ladies (13).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 23,
+      image: "/ladies (14).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+    {
+      id: 24,
+      image: "/ladies (15).jpg",
+      title: "Ladies chappals",
+      price: "₹380.99",
+      category: "ladies"
+    },
+
   ];
 
   const categories = [
     { id: 'all', name: 'All Products' },
-    { id: 'leather', name: 'Leather' },
-    { id: 'casual', name: 'Casual' },
-    { id: 'comfort', name: 'Comfort' },
-    { id: 'luxury', name: 'Luxury' }
+    { id: 'gents', name: 'Gents' },
+    { id: 'ladies', name: 'Ladies' },
+    { id: 'kids', name: 'Kids' }
   ];
 
   const filteredProducts = selectedCategory === 'all' 

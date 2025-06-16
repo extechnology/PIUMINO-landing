@@ -11,29 +11,29 @@ import { ArrowRight, Star, Gem, BadgeCheck, Feather,ShieldCheck  } from 'lucide-
 const Index = () => {
   const featuredProducts = [
     {
-      image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=400",
-      title: "Classic Brown Leather Shoes",
-      price: "₹1490.99",
-      originalPrice: "₹1690.99",
+      image: "/ladies (13).jpg",
+      title: "Ladies Chappals",
+      price: "₹490.99",
+      originalPrice: "₹690.99",
       isNew: true
     },
     {
-      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400",
-      title: "Premium Black Shoes",
-      price: "₹1390.99",
-      originalPrice: "₹1590.99"
+      image: "/kids.jpg",
+      title: "Kids Chappals",
+      price: "₹390.99",
+      originalPrice: "₹590.99"
     },
     {
-      image: "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=400",
-      title: "Comfortable Tan Sandals",
-      price: "₹1440.99",
+      image: "/Gents.jpg",
+      title: "Gents Chappals",
+      price: "₹440.99",
       isNew: true
     },
     {
-      image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400",
-      title: "Casual Slip-On Chappals",
-      price: "₹1340.99",
-      originalPrice: "₹1490.99"
+      image: "/ladies (14).jpg",
+      title: "Ladies Sandals",
+      price: "₹340.99",
+      originalPrice: "₹490.99"
     }
   ];
 
