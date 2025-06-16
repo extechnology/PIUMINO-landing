@@ -108,7 +108,7 @@ const Index = () => {
             <div className="relative">
               <div className="animate-float">
                 <img
-                  src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600"
+                  src="./ProductImageCompressed/ladies2.jpg"
                   alt="Featured Chappal"
                   className="w-full max-w-lg mx-auto rounded-2xl shadow-piumino"
                 />
