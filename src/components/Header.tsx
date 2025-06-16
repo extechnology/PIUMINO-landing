@@ -49,9 +49,9 @@ const Header = () => {
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="hidden md:flex">
+            {/* <Button variant="ghost" size="icon" className="hidden md:flex">
               <ShoppingBag className="h-5 w-5" />
-            </Button>
+            </Button> */}
             <Button className="hidden md:flex bg-gradient-piumino hover:opacity-90" asChild>
               <Link to="/shop">Shop Now</Link>
             </Button>
@@ -91,10 +91,10 @@ const Header = () => {
                 </Link>
               ))}
               <div className="px-4 py-2 space-y-2">
-                <Button variant="ghost" size="sm" className="w-full justify-start">
+                {/* <Button variant="ghost" size="sm" className="w-full justify-start">
                   <ShoppingBag className="h-4 w-4 mr-2" />
                   Cart
-                </Button>
+                </Button> */}
                 <Button className="w-full bg-gradient-piumino hover:opacity-90" asChild>
                   <Link to="/shop">Shop Now</Link>
                 </Button>
