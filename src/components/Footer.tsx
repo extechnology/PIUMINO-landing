@@ -321,7 +321,8 @@ const Footer = () => {
                   <i className="fa-brands fa-instagram "></i>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="whatsapp://send?phone=+918589010885" 
+                  target='_blank'
                   className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white sm:mr-4 lg:mr-3 xl:mr-4 dark:border-dark-3 dark:text-white dark:hover:border-primary"
                 >
                   <i className="fa-brands fa-whatsapp "></i>
