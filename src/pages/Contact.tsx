@@ -53,7 +53,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91 xxxx xxxx xxxx"],
+      details: ["+91 858 901 0885"],
       color: "text-green-500"
     },
     {
