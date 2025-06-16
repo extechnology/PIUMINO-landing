@@ -115,7 +115,7 @@ const Contact = () => {
       {/* Contact Form & Map */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16">
+          <div className="grid lg:grid-cols-2 gap-6">
             {/* Contact Form */}
             <Card className="border-0 shadow-lg">
               <CardHeader>
@@ -226,7 +226,7 @@ const Contact = () => {
                 <CardContent>
                   <div className="aspect-video bg-muted rounded-lg mb-6 flex items-center justify-center">
                     <div className="text-center text-muted-foreground">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.2934145235663!2d75.8423126745219!3d11.160836651986601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba651ef8ba1d59b%3A0x4da3ab54d9c1e664!2spiumino%20footware!5e1!3m2!1sen!2sin!4v1749815200615!5m2!1sen!2sin" width="600" height="450" style={{border:0}}  loading="lazy"></iframe>
+                      <iframe className='w-full h-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.2934145235663!2d75.8423126745219!3d11.160836651986601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba651ef8ba1d59b%3A0x4da3ab54d9c1e664!2spiumino%20footware!5e1!3m2!1sen!2sin!4v1749815200615!5m2!1sen!2sin" style={{border:0}}  loading="lazy"></iframe>
                     </div>
                   </div>
                   {/* <div className="space-y-4">
