@@ -15,6 +15,7 @@ const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsAndConditions = lazy(() => import("./pages/TermsAndConditions"));
 const ReturnRefundPolicy = lazy(() => import("./pages/ReturnRefundPolicy"));
 const PiuminoLoader = lazy(() => import("./components/ui/PiuminoLoader"));
+const WhatsAppHandle = lazy(() => import("./components/ui/WhatsAppHandle"));
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -22,6 +23,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <WhatsAppHandle />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Suspense fallback={<PiuminoLoader />}><Index /></Suspense>} />

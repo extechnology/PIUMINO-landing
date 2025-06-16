@@ -186,7 +186,7 @@ const Footer = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>+91 858 901 0885</span>
+                <Link to={''} onClick={() => { window.open("whatsapp://send?phone=+918589010885", '_self') }}><span>+91 858 901 0885</span></Link>
               </p>
             </div>
           </div>
@@ -281,6 +281,7 @@ const Footer = () => {
                 <li>
                   <Link to={''}
                     className="inline-block text-base leading-loose text-body-color hover:text-primary"
+                    onClick={() => { window.open("whatsapp://send?phone=+918589010885", '_self') }}
                   >
                     +91 858 901 0885
                   </Link>

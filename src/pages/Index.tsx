@@ -11,26 +11,26 @@ import { ArrowRight, Star, Gem, BadgeCheck, Feather,ShieldCheck  } from 'lucide-
 const Index = () => {
   const featuredProducts = [
     {
-      image: "/ladies (13).jpg",
+      image: "/ProductImageCompressed/ladies1.jpg",
       title: "Ladies Chappals",
       price: "₹490.99",
       originalPrice: "₹690.99",
       isNew: true
     },
     {
-      image: "/kids.jpg",
+      image: "/ProductImageCompressed/kids1.jpg",
       title: "Kids Chappals",
       price: "₹390.99",
       originalPrice: "₹590.99"
     },
     {
-      image: "/Gents.jpg",
+      image: "/ProductImageCompressed/gents1.jpg",
       title: "Gents Chappals",
       price: "₹440.99",
       isNew: true
     },
     {
-      image: "/ladies (14).jpg",
+      image: "/ProductImageCompressed/ladies1.jpg",
       title: "Ladies Sandals",
       price: "₹340.99",
       originalPrice: "₹490.99"

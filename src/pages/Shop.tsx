@@ -13,7 +13,7 @@ const Shop = () => {
   const products = [
     {
       id: 1,
-      image: "/Gents (2).jpg",
+      image: "/ProductImageCompressed/gents1.jpg",
       title: "Gents Chappals",
       price: "₹490.99",
       originalPrice: "₹690.99",
@@ -22,7 +22,7 @@ const Shop = () => {
     },
     {
       id: 2,
-      image: "/gents (3).jpg",
+      image: "/ProductImageCompressed/gents2.jpg",
       title: "Gents chappals",
       price: "₹400.99",
       originalPrice: "₹590.99",
@@ -30,7 +30,7 @@ const Shop = () => {
     },
     {
       id: 3,
-      image: "/gents (4).jpg",
+      image: "/ProductImageCompressed/gents3.jpg",
       title: "Gents chappals",
       price: "₹390.99",
       isNew: true,
@@ -38,7 +38,7 @@ const Shop = () => {
     },
     {
       id: 4,
-      image: "/gents (5).jpg",
+      image: "/ProductImageCompressed/gents4.jpg",
       title: "Gents chappals",
       price: "₹490.99",
       originalPrice: "₹510.99",
@@ -46,14 +46,14 @@ const Shop = () => {
     },
     {
       id: 5,
-      image: "/gents (6).jpg",
+      image: "/ProductImageCompressed/gents5.jpg",
       title: "Gents chappals",
       price: "₹400.99",
       category: "gents"
     },
     {
       id: 6,
-      image: "/gents (7).jpg",
+      image: "/ProductImageCompressed/gents6.jpg",
       title: "Gents chappals",
       price: "₹490.99",
       originalPrice: "₹690.99",
@@ -61,7 +61,7 @@ const Shop = () => {
     },
     {
       id: 7,
-      image: "/Gents.jpg",
+      image: "/ProductImageCompressed/kids1.jpg",
       title: "Gents chappals",
       price: "₹400.99",
       isNew: true,
@@ -69,123 +69,123 @@ const Shop = () => {
     },
     {
       id: 8,
-      image: "/kids.jpg",
+      image: "/ProductImageCompressed/kids2.jpg",
       title: "Kids chappals",
       price: "₹280.99",
       category: "kids"
     },
     {
       id: 9,
-      image: "/kids (2).jpg",
+      image: "/ProductImageCompressed/kids3.jpg",
       title: "Kids chappals",
       price: "₹280.99",
       category: "kids"
     },
     {
       id: 10,
-      image: "/kids (3).jpg",
+      image: "/ProductImageCompressed/ladies1.jpg",
       title: "Kids chappals",
       price: "₹280.99",
-      category: "kids"
+      category: "ladies"
     },
     {
       id: 11,
-      image: "/ladies (2).jpg",
+      image: "/ProductImageCompressed/ladies2.jpg",
       title: "Ladies chappals",
       price: "₹380.99",
       category: "ladies"
     },
     {
       id: 12,
-      image: "/ladies (3).jpg",
+      image: "/ProductImageCompressed/ladies3.jpg",
       title: "Ladies chappals",
       price: "₹380.99",
       category: "ladies"
     },
     {
       id: 13,
-      image: "/ladies (4).jpg",
+      image: "/ProductImageCompressed/ladies4.jpg",
       title: "Ladies chappals",
       price: "₹380.99",
       category: "ladies"
     },
-    {
-      id: 14,
-      image: "/ladies (5).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 15,
-      image: "/ladies (6).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 16,
-      image: "/ladies (7).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 17,
-      image: "/ladies (8).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 18,
-      image: "/ladies (9).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 19,
-      image: "/ladies (10).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 20,
-      image: "/ladies (11).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 21,
-      image: "/ladies (12).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 22,
-      image: "/ladies (13).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 23,
-      image: "/ladies (14).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
-    {
-      id: 24,
-      image: "/ladies (15).jpg",
-      title: "Ladies chappals",
-      price: "₹380.99",
-      category: "ladies"
-    },
+    // {
+    //   id: 14,
+    //   image: "/ProductImageCompressed/ladies (5).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 15,
+    //   image: "/ProductImageCompressed/ladies (6).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 16,
+    //   image: "/ProductImageCompressed/ladies (7).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 17,
+    //   image: "/ProductImageCompressed/ladies (8).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 18,
+    //   image: "/ProductImageCompressed/ladies (9).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 19,
+    //   image: "/ProductImageCompressed/ladies (10).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 20,
+    //   image: "/ProductImageCompressed/ladies (11).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 21,
+    //   image: "/ProductImageCompressed/ladies (12).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 22,
+    //   image: "/ProductImageCompressed/ladies (13).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 23,
+    //   image: "/ProductImageCompressed/ladies (14).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
+    // {
+    //   id: 24,
+    //   image: "/ProductImageCompressed/ladies (15).jpg",
+    //   title: "Ladies chappals",
+    //   price: "₹380.99",
+    //   category: "ladies"
+    // },
 
   ];
 
@@ -247,13 +247,13 @@ const Shop = () => {
                 >
                   <Grid className="h-4 w-4" />
                 </Button>
-                <Button
+                {/* <Button
                   variant={viewMode === 'list' ? "default" : "outline"}
                   size="sm"
                   onClick={() => setViewMode('list')}
                 >
                   <List className="h-4 w-4" />
-                </Button>
+                </Button> */}
               </div>
               <Button variant="outline" size="sm">
                 <SlidersHorizontal className="h-4 w-4 mr-2" />
