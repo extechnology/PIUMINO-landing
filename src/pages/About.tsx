@@ -1,7 +1,4 @@
 
-import React from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Award, Heart, Target } from 'lucide-react';
 
@@ -52,7 +49,6 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
-      <Header />
       
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-background to-primary/5">
@@ -201,7 +197,6 @@ const About = () => {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 };

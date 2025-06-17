@@ -1,10 +1,7 @@
 
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
 import { ArrowRight, Star, Gem, BadgeCheck, Feather,ShieldCheck  } from 'lucide-react';
 
@@ -63,7 +60,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <Header />
       
       {/* Hero Section */}
       <section className="relative pt-16 min-h-screen flex items-center justify-center overflow-hidden">
@@ -197,7 +193,6 @@ const Index = () => {
         </div>
       </section> */}
 
-      <Footer />
     </div>
   );
 };

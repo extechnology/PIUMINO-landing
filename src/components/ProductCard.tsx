@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -22,13 +21,13 @@ const ProductCard = ({ id = 1, image, title, price, originalPrice, isNew }: Prod
             NEW
           </span>
         )}
-        <Button
+        {/* <Button
           variant="ghost"
           size="icon"
           className="absolute top-4 right-4 z-10 bg-white/80 hover:bg-white transition-colors"
         >
           <Heart className="h-4 w-4" />
-        </Button>
+        </Button> */}
         <Link to={`#`}>
           <img
             loading='lazy'

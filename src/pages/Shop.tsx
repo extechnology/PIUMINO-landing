@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ProductCard from '@/components/ProductCard';
 import { Filter, Grid, List, SlidersHorizontal } from 'lucide-react';
 
@@ -202,7 +199,6 @@ const Shop = () => {
 
   return (
     <div className="min-h-screen">
-      <Header />
       
       {/* Page Header */}
       <section className="pt-20 pb-8 bg-muted/30">
@@ -285,7 +281,6 @@ const Shop = () => {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 };

@@ -1,11 +1,8 @@
-import React from 'react';
+
 import { RefreshCw, Calendar, Mail, Package, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 const ReturnRefundPolicy = () => {
   return (
     <>
-    <Header />
     <div className="pt-20 pb-20 bg-gradient-to-br from-background to-primary/5 container mx-auto">
       {/* Header */}
       <div className="border-b border-gray-200 pb-6 mb-8">
@@ -224,7 +221,6 @@ const ReturnRefundPolicy = () => {
         </section>
       </div>
     </div>
-    <Footer />
     </>
   );
 };
