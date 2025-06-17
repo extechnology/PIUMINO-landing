@@ -32,9 +32,9 @@ const App = () => (
           <Route path="/shop" element={<Suspense fallback={<PiuminoLoader />}><Shop /></Suspense>} />
           <Route path="/product/:id" element={<Suspense fallback={<PiuminoLoader />}><Product /></Suspense>} />
 
-          <Route path="/privacy-policy" element={<Suspense fallback={<PiuminoLoader />}><PrivacyPolicy /></Suspense>} />
-          <Route path="/terms-and-conditions" element={<Suspense fallback={<PiuminoLoader />}><TermsAndConditions /></Suspense>} />
-          <Route path="/return-refund-policy" element={<Suspense fallback={<PiuminoLoader />}><ReturnRefundPolicy /></Suspense>} />
+          <Route path="/privacypolicy" element={<Suspense fallback={<PiuminoLoader />}><PrivacyPolicy /></Suspense>} />
+          <Route path="/termsandconditions" element={<Suspense fallback={<PiuminoLoader />}><TermsAndConditions /></Suspense>} />
+          <Route path="/returnrefundpolicy" element={<Suspense fallback={<PiuminoLoader />}><ReturnRefundPolicy /></Suspense>} />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

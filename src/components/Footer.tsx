@@ -404,7 +404,7 @@ const Footer = () => {
         <ul className="space-y-3 sm:space-y-0 sm:space-x-6 flex flex-col sm:flex-row justify-center items-center">
           <li>
             <Link
-              to={'/privacy-policy'}
+              to={'/privacypolicy'}
               className="inline-block text-base leading-loose text-body-color hover:text-primary"
             >
               Privacy Policy<span className="ms-[24px] sm:inline hidden">|</span>
@@ -412,7 +412,7 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              to={'/terms-and-conditions'}
+              to={'/termsandconditions'}
               className="inline-block text-base leading-loose text-body-color hover:text-primary"
             >
               Terms & Conditions<span className="ms-[24px] sm:inline hidden">|</span>
@@ -420,7 +420,7 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              to={'/return-refund-policy'}
+              to={'/returnrefundpolicy'}
               className="inline-block text-base leading-loose text-body-color hover:text-primary"
             >
               Refund/Return Policy
